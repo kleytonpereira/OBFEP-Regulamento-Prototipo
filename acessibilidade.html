@@ -4,37 +4,42 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Acessibilidade desta recriação | Regulamento 2026 da OBFEP</title>
-<link rel="stylesheet" href="estilo.css">
+<title>Acessibilidade desta versão | Regulamento 2026 da OBFEP</title>
+<link rel="stylesheet" href="acessibilidade.css">
 </head>
-<body>
-<a class="pular" href="#conteudo">Ir para o conteúdo</a>
-<header class="cabecalho">
-  <div class="envoltorio">
-    <p class="nome-site"><a href="index.html">Regulamento 2026 da OBFEP: recriação acessível</a></p>
-  </div>
-</header>
-<main id="conteudo" tabindex="-1">
-  <div class="envoltorio">
-    <h1>Acessibilidade desta recriação</h1>
-    <p>Esta página é uma recriação, feita para pesquisa, do <a href="https://www1.fisica.org.br/~obfep/regulamento-2026/">regulamento oficial da OBFEP</a>. Ela não é o site oficial e não é atualizada.</p>
-    <h2>Meta</h2>
-    <p>Atender aos critérios de nível A e AA das Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2 e ao art. 63 da Lei Brasileira de Inclusão.</p>
-    <h2>Recursos</h2>
-    <ul>
-      <li>Link "Ir para o conteúdo" no primeiro Tab.</li>
-      <li>Menu e sumário navegáveis por teclado, sem JavaScript.</li>
-      <li>Zoom liberado; o texto se reorganiza em telas estreitas.</li>
-      <li>Cores com contraste mínimo de 4,5:1 para texto.</li>
-    </ul>
-    <h2>Avaliação</h2>
-    <p>Avaliada com ASES, WAVE e Lighthouse e por inspeção manual, segundo um protocolo de pesquisa da UFC Quixadá (2026).</p>
-  </div>
+<body class="pagina-acessibilidade">
+<a class="skip-link" href="#main">Ir para o conteúdo</a>
+<main id="main" tabindex="-1">
+  <h1>Acessibilidade desta versão</h1>
+  <p>Esta é uma versão corrigida, para pesquisa, da <a href="https://www1.fisica.org.br/~obfep/regulamento-2026/">página oficial</a> (Regulamento 2026 da OBFEP). Não é o site oficial e não é atualizada.</p>
+  <h2>Meta</h2>
+  <p>Critérios de nível A e AA das Diretrizes de Acessibilidade para Conteúdo Web (WCAG) 2.2 e art. 63 da Lei Brasileira de Inclusão, mantendo o visual original.</p>
+  <h2>Correções aplicadas</h2>
+  <ul>
+      <li>scripts do original removidos (11); links e recursos relativos tornados absolutos</li>
+      <li>viewport sem bloqueio de zoom</li>
+      <li>link &quot;Ir para o conteúdo&quot; como primeiro elemento</li>
+      <li>título vazio do cabeçalho removido (1×)</li>
+      <li>título do regulamento passa a ser o único h1 (1×)</li>
+      <li>seções do regulamento de h3 para h2 (sem salto de nível) (9×)</li>
+      <li>título da coluna lateral de h3 para h2 (1×)</li>
+      <li>fechamento do título da coluna lateral (1×)</li>
+      <li>conteúdo dentro de &lt;main&gt; (1×)</li>
+      <li>fim do &lt;main&gt; antes da coluna lateral (1×)</li>
+      <li>menu identificado como navegação (1×)</li>
+      <li>cabeçalho identificado como região (1×)</li>
+      <li>rodapé identificado como região (1×)</li>
+      <li>campo de busca com rótulo (1×)</li>
+      <li>itens de menu sem destino deixam de ser links falsos (submenus abrem ao receber foco) (7×)</li>
+      <li>links para .doc/.docx indicam o formato (2×)</li>
+      <li>links com o endereço cru como texto ganham nome (14×)</li>
+      <li>parágrafo sem abertura corrigido (HTML válido) (1×)</li>
+      <li>&lt;div&gt; fechado a mais no fim do tema removido (HTML válido) (1×)</li>
+      <li>símbolo e página de acessibilidade, link para o original e aviso no rodapé</li>
+  </ul>
+  <h2>Avaliação</h2>
+  <p>A verificação é feita com ASES, WAVE e Lighthouse e por inspeção manual (UFC Quixadá, 2026).</p>
+  <p><a href="index.html">Voltar à página</a></p>
 </main>
-<footer class="rodape">
-  <div class="envoltorio">
-    <ul><li><a href="index.html">Voltar ao regulamento</a></li></ul>
-  </div>
-</footer>
 </body>
 </html>
