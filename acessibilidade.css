@@ -4,7 +4,7 @@
 .skip-link { position:absolute; left:-999rem; top:.5rem; z-index:100000; padding:.5rem 1rem; background:#fff; color:#1f2933; font-size:1rem; }
 .skip-link:focus { left:.5rem; }
 :focus-visible { outline: 3px solid var(--focus-color, #1d5fa3) !important; outline-offset: 2px !important; }
-main p a, main li a, #main p a, #main li a { text-decoration: underline; }
+main p a[href], #main p a[href] { text-decoration: underline; }  /* links em texto corrido (1.4.1); cartões e menus mantêm o estilo */
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
 
 /* nota do rodapé acrescentada pela versão corrigida */
