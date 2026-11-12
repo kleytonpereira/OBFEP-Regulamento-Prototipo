@@ -117,3 +117,6 @@ p, li { max-width: 70ch; }
 
 /* G-11: links isolados (migalhas, "voltar ao sumário") com alvo ≥ 24 px */
 .migalhas a, .voltar-sumario a { display: inline-block; min-height: 1.75rem; padding-block: 0.15rem; }
+
+/* item de menu sem destino no original ("em breve"): texto, não link */
+.sem-link { display: inline-block; padding: 0.6rem 0.25rem; color: var(--cor-texto-suave); }
