@@ -1,0 +1,75 @@
+/* Layout 2026 
+	Cor principal (fundo do menu, links e títulos): #a00000
+	Cor secundária (fundo das imagens das postagens): #d84040
+	Cor terciária (rodapé): #ffcdcd
+	Cor quaternária (hoover das tabelas): #fcf7f7
+*/
+
+
+/* Menu Background */
+body {font-size: 14px; background: url(https://www1.fisica.org.br/~obfep/wp-content/uploads/2026/03/2026-menu-background.png) repeat-x top #fff;} /*#a00000*/
+
+/* Links */
+a { color: #a00000; font-weight: bold; }
+a:hover { color: black }
+
+/* Títulos: */
+.title h2, .title h2 a, .title h2 a:visited { color: #a00000 }
+.title {text-align: center }
+
+/* Logo do cabeçalho: */
+#blogname { margin: 15px 0px 0px 0px }
+#blogname img { height: 110px; }
+
+/* Escondendo o parágrafo "Tudo sobre o OBFEP" na página inicial, em "Últimas novidades*/
+#recent-posts p{ visibility: hidden }
+/* Lembrar de, todos os anos, alterar a página https://www1.fisica.org.br/~obfep/a-obfep/ */
+
+/* Tabela do calendário*/
+.wp-block-table.is-style-stripes tbody tr:hover td {
+    background-color: #fcf7f7 !important;
+}
+
+/* Todas as tabelas simples*/
+table tbody tr:hover td {
+    background-color: #fcf7f7 !important;
+}
+
+#search { margin: 15px 0px 0px 0px; }
+
+#botmenu { margin: 7px auto 0px auto; float: right;}
+
+#subnav {font-size: 10px;}
+#subnav ul,
+#subnav li li a,
+#subnav li li a:link,
+#subnav li li a:visited {background: #a00000; font-size: 10px; }
+
+#subnav li li a:hover,
+#subnav li li a:active { color: #a00000; background: #fff }
+
+#searchsubmit { background: #a00000 }
+
+#recent-projects {
+    border-top: 1px solid #a00000;
+    border-bottom: #a00000;
+}
+
+.leftbox h2 { color: #a00000; font-size: 30px; }
+
+h3.sidetitl  { background: #a00000; color: #fff; border: 0 }
+
+#commentsbox { display: none }
+
+/* Rodapé (#ffcdcd): */
+
+#footer {
+    background: url(https://www1.fisica.org.br/~obfep/wp-content/uploads/2026/03/2026-rodape-new2.png) no-repeat center;
+    background-size: 960px 60px;
+    margin: 0 auto;
+    border-top: 1px solid #a00000;
+    padding: 0;
+    font-size: 0;
+}
+
+.realizacao {visibility: hidden}
